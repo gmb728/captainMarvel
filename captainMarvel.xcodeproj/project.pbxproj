@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD3E4AE22239D77400176E5E /* captainMarvelCATransaction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = captainMarvelCATransaction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3E4AE22239D77400176E5E /* captainMarvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = captainMarvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD3E4AE52239D77400176E5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD3E4AE72239D77400176E5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD3E4AEA2239D77400176E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		DD3E4AD92239D77400176E5E = {
 			isa = PBXGroup;
 			children = (
-				DD3E4AE42239D77400176E5E /* captainMarvelCATransaction */,
+				DD3E4AE42239D77400176E5E /* captainMarvel */,
 				DD3E4AE32239D77400176E5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		DD3E4AE32239D77400176E5E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD3E4AE22239D77400176E5E /* captainMarvelCATransaction.app */,
+				DD3E4AE22239D77400176E5E /* captainMarvel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD3E4AE42239D77400176E5E /* captainMarvelCATransaction */ = {
+		DD3E4AE42239D77400176E5E /* captainMarvel */ = {
 			isa = PBXGroup;
 			children = (
 				DD3E4AE52239D77400176E5E /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				DD3E4AEE2239D77600176E5E /* LaunchScreen.storyboard */,
 				DD3E4AF12239D77600176E5E /* Info.plist */,
 			);
-			path = captainMarvelCATransaction;
+			path = captainMarvel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD3E4AE12239D77400176E5E /* captainMarvelCATransaction */ = {
+		DD3E4AE12239D77400176E5E /* captainMarvel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD3E4AF42239D77600176E5E /* Build configuration list for PBXNativeTarget "captainMarvelCATransaction" */;
+			buildConfigurationList = DD3E4AF42239D77600176E5E /* Build configuration list for PBXNativeTarget "captainMarvel" */;
 			buildPhases = (
 				DD3E4ADE2239D77400176E5E /* Sources */,
 				DD3E4ADF2239D77400176E5E /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = captainMarvelCATransaction;
+			name = captainMarvel;
 			productName = captainMarvelCATransaction;
-			productReference = DD3E4AE22239D77400176E5E /* captainMarvelCATransaction.app */;
+			productReference = DD3E4AE22239D77400176E5E /* captainMarvel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD3E4ADD2239D77400176E5E /* Build configuration list for PBXProject "captainMarvelCATransaction" */;
+			buildConfigurationList = DD3E4ADD2239D77400176E5E /* Build configuration list for PBXProject "captainMarvel" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD3E4AE12239D77400176E5E /* captainMarvelCATransaction */,
+				DD3E4AE12239D77400176E5E /* captainMarvel */,
 			);
 		};
 /* End PBXProject section */
@@ -284,12 +284,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3M66U64HQ4;
-				INFOPLIST_FILE = captainMarvelCATransaction/Info.plist;
+				INFOPLIST_FILE = captainMarvel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.captainMarvelCATransaction;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.captainMarvel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,12 +302,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3M66U64HQ4;
-				INFOPLIST_FILE = captainMarvelCATransaction/Info.plist;
+				INFOPLIST_FILE = captainMarvel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.captainMarvelCATransaction;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.captainMarvel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD3E4ADD2239D77400176E5E /* Build configuration list for PBXProject "captainMarvelCATransaction" */ = {
+		DD3E4ADD2239D77400176E5E /* Build configuration list for PBXProject "captainMarvel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD3E4AF22239D77600176E5E /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD3E4AF42239D77600176E5E /* Build configuration list for PBXNativeTarget "captainMarvelCATransaction" */ = {
+		DD3E4AF42239D77600176E5E /* Build configuration list for PBXNativeTarget "captainMarvel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD3E4AF52239D77600176E5E /* Debug */,
